@@ -1,2 +1,2 @@
-Feature:
+Feature: Login
   Scenario:
