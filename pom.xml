@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.vytrack</groupId>
-    <artifactId>Fall2019OnlineCucumberSelenium</artifactId>
+    <artifactId>CucumberWebOrderFall2019</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
         <maven.compiler.source>12</maven.compiler.source>
@@ -104,5 +104,17 @@
             <artifactId>slf4j-simple</artifactId>
             <version>1.7.30</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>4.1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.14.3</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
+
 </project>
